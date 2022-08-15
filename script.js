@@ -70,9 +70,3 @@ const toFahrenheit = () => {
 document.getElementById("set-location").addEventListener("click", run);
 //Add an event listener. so toFahrenheit function is invoked upon click
 document.getElementById("to-fahrenheit").addEventListener("click", toFahrenheit);
-
-
-const backgroundColor = () => {
-  if(document.getElementById('desc').innerHTML == 'clear')
-    body.backgroundColor = lightblue;
-};
